@@ -1,9 +1,11 @@
 import React from 'react'
 
-const SidebarOption = () => {
+function SidebarOption(props) {
   return (
-    <div>SidebarOption</div>
-  )
+    <div className='sidebarOption'>
+      <h2>This is an option.</h2>
+    </div>
+  );
 }
 
 export default SidebarOption
