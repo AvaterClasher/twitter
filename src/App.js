@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="app">
       <h2>TWITTER</h2>
+      <h1>Hello</h1>
       <Sidebar/>
       <Feed/>
     </div>
